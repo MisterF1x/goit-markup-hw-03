@@ -151,7 +151,7 @@ button {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 696px;
+  max-width: 696px;
 }
 .btn-hero {
   font-family: inherit;
@@ -207,7 +207,7 @@ button {
 .works,
 .team .list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 .team-name {
   font-size: 16px;
@@ -228,7 +228,7 @@ button {
   color: var(--text-color);
 }
 .group-team {
-  padding: 30px 70px;
+  padding: 30px 0;
   text-align: center;
 }
 /* ---------title style------- */
@@ -250,9 +250,6 @@ button {
   flex-wrap: wrap;
   gap: 30px;
 }
-.projects-list {
-  border-bottom: 1px solid #eee;
-}
 .btn-filter {
   font-family: inherit;
   font-weight: 500;
@@ -268,6 +265,8 @@ button {
 }
 .group-name {
   padding: 20px 24px;
+  border: 1px solid #eee;
+  border-top: none;
 }
 .btn-filter.current,
 .btn-filter:hover,
